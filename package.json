@@ -1,0 +1,24 @@
+{
+    "name": "js-lessons",
+    "version": "1.0.0",
+    "description": "A short description of your project",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/batalova-kira/js-lessons"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^4.0.0",
+        "gh-pages": "^3.2.3"
+    }
+}
